@@ -1,0 +1,38 @@
+Summary of the Spam-Email Classifier App
+
+User Interface: The app is built using Streamlit, providing an interactive web interface where users can input an email text for classification.
+
+1. Input Handling:
+
+- The user enters an email in a text input field.
+- If the input is empty, the app prompts the user to enter an email.
+
+2. Email Classification:
+
+- Upon receiving input, the app calls the spam_ham_checker function from the ML.py script.
+- The function uses a pre-trained Logistic Regression model to classify the email as either "spam" or "ham" (non-spam).
+
+3. Text Vectorization:
+
+- The email text is transformed into numerical features using TfidfVectorizer, which converts the text into a format suitable for the 
+machine learning model.
+- This process includes tokenization and removing stop words.
+
+4. Model Prediction:
+
+- The transformed email is fed into the Logistic Regression model.
+- The model predicts the class of the email (0 for spam, 1 for ham).
+Output:
+
+The classification result is displayed on the Streamlit interface.
+
+5. Model Training:
+
+- The model is trained on a dataset split into training and test sets.
+- The classification performance is evaluated using metrics like accuracy.
+
+
+
+
+
+
