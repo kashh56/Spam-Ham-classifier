@@ -27,6 +27,10 @@ The goal is to detect spam emails with high accuracy using _TF-IDF vectorization
 *   **requirements.txt**: Lists all the _Python modules_ required to run the project.
 *   **summary.txt**: Provides a _step-by-step summary_ of how the application works.
 
+Web App Link
+--------------------
+https://spam-ham-classifier-akash.streamlit.app/
+
 
 Created with ❤️ by Akash Anandani
 @akashanandani.56@gmail.com
